@@ -7,7 +7,7 @@ export default function About() {
     <div class="hero-container">
       <div class="image-container">
         <div class="circle">
-          <img src={MyLogo} alt="" />
+          <img src= {MyLogo} alt="" />
         </div>
       </div>
       <div class="description-container">

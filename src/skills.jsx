@@ -1,6 +1,8 @@
 import React from 'react'
 import './skill.css'
 import Skill from './img/html_logo.png'
+import Skill1 from './img/css_logo.png'
+import Skill2 from './img/js_logo.png'
 export default function Skills() {
   return (
     <section id="skill">
@@ -20,28 +22,28 @@ export default function Skills() {
           <img src= {Skill} alt="" />
         </div>
         <div class="skill-box">
-          <img src="src\img\css_logo.png" alt="" />
+          <img src= {Skill1} alt="" />
         </div>
         <div class="skill-box">
-          <img src="src\img\css_logo.png" alt="" />
+          <img src= {Skill1} alt="" />
         </div>
         <div class="skill-box">
-          <img src="src\img\css_logo.png" alt="" />
+          <img src= {Skill1} alt="" />
         </div>
         <div class="skill-box">
-          <img src="src\img\css_logo.png" alt="" />
+          <img src= {Skill1} alt="" />
         </div>
         <div class="skill-box">
-          <img src="src\img\js_logo.png" alt="" />
+          <img src= {Skill2} alt="" />
         </div>
         <div class="skill-box">
-          <img src="src\img\js_logo.png" alt="" />
+          <img src= {Skill2} alt="" />
         </div>
         <div class="skill-box">
-          <img src="src\img\js_logo.png" alt="" />
+          <img src= {Skill2} alt="" />
         </div>
         <div class="skill-box">
-          <img src="src\img\js_logo.png" alt="" />
+          <img src= {Skill2} alt="" />
         </div>
       </div>
     </div>

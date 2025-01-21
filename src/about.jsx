@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import MyLogo from './src/img/gaurav.jpg'
+import MyLogo from './img/gaurav.jpg'
 export default function About() {
   return (
     <section id="about">

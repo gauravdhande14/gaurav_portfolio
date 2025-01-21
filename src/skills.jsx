@@ -1,6 +1,6 @@
 import React from 'react'
 import './skill.css'
-import Skill from './img\html_logo.png'
+import Skill from './img/html_logo.png'
 export default function Skills() {
   return (
     <section id="skill">

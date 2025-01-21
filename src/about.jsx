@@ -1,13 +1,13 @@
 import React from 'react'
 import './about.css'
-
+import MyLogo '.\src\img\gaurav.jpg'
 export default function About() {
   return (
     <section id="about">
     <div class="hero-container">
       <div class="image-container">
         <div class="circle">
-          <img src="\src\img\gaurav.jpg" alt="" />
+          <img src={MyLogo} alt="" />
         </div>
       </div>
       <div class="description-container">

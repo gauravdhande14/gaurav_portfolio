@@ -1,6 +1,6 @@
 import React from 'react'
 import './project.css'
-
+import Proj1 from './img/img.png'
 export default function Projects() {
   return (
     <section id="project">
@@ -8,7 +8,7 @@ export default function Projects() {
         <h1>PROJECTS</h1>
         <div class="projects">
           <div class="project-box">
-            <img src="src\img\img.png" alt="" />
+            <img src= {Proj1} alt="" />
             <h2>Project 1</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
@@ -19,7 +19,7 @@ export default function Projects() {
             <button>Github</button>
           </div>
           <div class="project-box">
-            <img src="src\img\img.png" alt="" />
+            <img src= {Proj1} alt="" />
             <h2>Project 2</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
@@ -30,7 +30,7 @@ export default function Projects() {
             <button>Github</button>
           </div>
           <div class="project-box">
-            <img src="src\img\img.png" alt="" />
+            <img src= {Proj1} alt="" />
             <h2>Project 3</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
@@ -41,7 +41,7 @@ export default function Projects() {
             <button>Github</button>
           </div>
           <div class="project-box">
-            <img src="src\img\img.png" alt="" />
+            <img src= {Proj1} alt="" />
             <h2>Project 4</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
